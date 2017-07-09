@@ -1,0 +1,120 @@
+html, body
+{
+	font-family: 'Helvetica Neue', sans-serif;
+	margin:20px;
+	margin-left: 20%;
+	margin-right: 20%;
+	background: #FFF;
+}
+.header
+{
+	background-color: teal;
+	width: 100%;
+	color: white;
+	padding-left: 5px;
+	text-align: center;
+	
+}
+.intro
+{
+	margin-top:-15px;
+	margin-bottom:30px;
+	font-style: italic;
+}
+footer
+{
+	margin-right: 20%;
+	bottom:0px;
+	position:fixed;
+	background-color:teal;
+	width:100%;
+	height:20px;
+	left:0px;
+	color:white;
+	font-size: 0.9em;
+	padding-left:20px;
+}
+#mainTable
+{
+	width: 100%;
+	border: 2px solid #888; 
+}
+#mainTable th
+{
+	border:2px solid #888;
+	background-color: teal;
+	color: white;
+}
+#mainTable tr:nth-child(even) {background-color: #eee}
+#mainTable tr:nth-child(odd) {background-color: #fff}
+td:first-child {text-align: left}
+td:nth-child(2){text-align: right}
+.insertButton
+{
+	padding: 5px 10px;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 3px #999;
+}
+.insertButton:hover {background-color: #3e8e41}
+.insertButton:active {
+	background-color: #3e8e41;
+	box-shadow: 0 1px #999;
+	transform: translateY(2px);
+}
+.removeButton
+{
+	padding: 5px 10px;
+	font-size: 10px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #FF6347;
+	border: none;
+	border-radius: 15px;
+}
+.removeButton:hover {background-color: #ff2600}
+.removeButton:active
+{
+  background-color: #ff2600;
+  transform: translateY(2px);
+}
+.inputs .popup
+{
+	position: absolute;
+	margin-left: 10%;
+	display: none;
+	color: black;
+	font-size: 15px;
+	background:  #FFF8DC;
+	border: 1px solid #000;
+}
+.inputs:hover .popup {display: block;}
+.removeAllButton
+{
+	margin: auto;
+	font-size: 20px;
+	text-align: right;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #FF6347;
+	border: none;
+	border-radius: 15px;
+	margin-top: 10px;
+	box-shadow: 0 3px #999;
+}
+.removeAllButton:hover {background-color: #ff2600}
+.removeAllButton:active
+{
+	background-color: #ff2600;
+	transform: translateY(2px);
+	box-shadow: 0 1px #999;
+}

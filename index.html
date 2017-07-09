@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Interaktive Systeme - Template</title>
+		<link href="css/main.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	</head>
+	<body style="background: #eee; border: 15px solid #aaa">
+		<div class="header">
+			<h1>ToDo Liste</h1>
+			<p>Artuk Kakhorov, Nicolas A. Tamm-Garetto</p>
+		</div>
+		<div class="hauptzeug" style="padding: 15px" >
+			<div class ="inputs"style="margin-bottom: 30px">
+				<input id="input" type="text" size ="40%"placeholder="Was habe ich vor?" autofocus> </td>
+				<button class="insertButton" id="okButton" onclick="addtask()"> Add </button>
+				<p class ="popup"> Sie können auch 'Enter' drücken! </p>
+		</div>
+		<table id="mainTable"> </table>
+		<button class="removeAllButton" id="nixDa" onclick="nixDa()"> Nix Da! </button>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	</body>
+	<footer> Maultaschen GmbH, 2017 </footer>
+</html>
